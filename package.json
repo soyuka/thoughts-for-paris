@@ -1,0 +1,17 @@
+{
+  "name": "thoughtsforparis",
+  "version": "1.0.0",
+  "description": "Thoughts for paris Nov 13",
+  "main": "./bin/thoughts-for-paris.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Paris", "killings", "terrorism"],
+  "author": "soyuka",
+  "license": "WTF",
+  "dependencies": {
+    "ansi-rainbow": "1.0.0",
+    "chalk": "^1.1.1",
+    "minimist": "^1.2.0"
+  }
+}
