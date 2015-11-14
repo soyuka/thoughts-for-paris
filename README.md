@@ -9,4 +9,4 @@ thoughtsforparis Thoughts For Paris
 
 Outputs:
 
-![](./screen.png)
+![](https://raw.githubusercontent.com/soyuka/thoughts-for-paris/master/screen.png)
