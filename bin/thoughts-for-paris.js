@@ -4,6 +4,11 @@ var r = require('ansi-rainbow')
 var chalk = require('chalk')
 
 var str = argv._.join(' ')
+
+while(str.length % 3 !== 0) {
+  str += ' '
+}
+
 var l = str.length
 
 var spaces = ''
@@ -13,7 +18,7 @@ for (;i < l; i++) {
 }
 
 r
-.options({color_space: true, gap: Math.floor(l / 3)})
+.options({color_space: true, gap: l / 3})
 .skip(r._backgrounds)
 .skip(r._colors)
 .add('bgBlue bgWhite bgRed')
